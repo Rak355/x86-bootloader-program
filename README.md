@@ -24,3 +24,6 @@ At the console>$ make compile
 At the console>$ make qemu-boot-hdd
 
 If the output on the qemu displays Hello World! the program was successfully executed.
+
+snapshot.
+![snapshot](https://i.imgur.com/UROBveC.png)
