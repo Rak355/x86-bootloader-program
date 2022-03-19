@@ -1,5 +1,5 @@
 # Bootloader Program for x86 system.
-This is a simple legacy bootloader program. It set the cpu to 32 bit protected mode by establishing a global descriptor table. It also enables paging in 32 bit and loads a dummy program to print text on the screen. The text is printed by writing values directly to the display memory.
+This is a simple legacy bootloader program. It set the cpu to 32 bit protected mode and also establishes a global descriptor table. It also enables paging in 32 bit and loads a dummy program to print text on the screen. The text is printed by writing values directly to the display memory.
 
 # Features
 1. The bootloader uses combinations of assembly language and C programming language.
