@@ -86,10 +86,10 @@ protected_mode.done:
 
 .equ boot_stack_top, 0x90000
   mov $boot_stack_top,%esp
-  #jmp to the
+  #jmp to the external paging function
   jmp paging
 
-##forever loop for the protected mode test display
+#forever loop for the protected mode test display
 loop_forever:
   jmp loop_forever
 
