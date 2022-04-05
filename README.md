@@ -3,7 +3,7 @@ This is a simple legacy bootloader program. It set the cpu to 32 bit protected m
 
 # Features
 1. The bootloader uses combinations of assembly language and C programming language.
-2. It set the Cpu to 32 bit protected mode from 16 bit real mode.
+2. It set the cpu to 32 bit protected mode from 16 bit real mode.
 3. It enables paging for 32 bit.
 
 # Dependencies
