@@ -1,10 +1,3 @@
-#******************************************************
-# Author: Rakesh Kumar Lal
-# rakesh491(github)
-#
-#******************************************************
-
-#NBVR_bootloader ;)
 .global the_beginning
 the_beginning:
 #the beginning
@@ -14,6 +7,7 @@ ljmp $0x0000,$boot
 
 .extern paging
 
+# first sector of the disc
 .global boot
 boot:
     mov %dl,disk
