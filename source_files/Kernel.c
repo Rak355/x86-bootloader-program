@@ -21,7 +21,7 @@ static void print_string(char* string, volatile unsigned char* vid_mem_offset){
   }
 }
 
-// function to print hex characters to display, not user in this program.
+// function to print memory address in hexadecimal to display.
 static void print32_hex(void* addr,volatile unsigned char* vid_mem_offset){
   uint32_t actual_addr = (uint32_t) addr;
   uint32_t and = 0xf0000000;
