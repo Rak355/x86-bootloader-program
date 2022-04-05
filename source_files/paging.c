@@ -1,9 +1,3 @@
-/*******************************************************
-# Author: Rakesh Kumar Lal
-# rakesh491(github)
-#
-#*******************************************************/
-
 /*
 A simple 32-bit paging with one Page Directory:- first page table(4mb memory)
 and with Identitiy mapping.
